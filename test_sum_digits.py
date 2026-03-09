@@ -2,14 +2,26 @@ from sum_digits import sum_of_digits
 
 
 def test_mixed_string_returns_digit_sum():
+    '''
+    This test ensures that if we have mixed string with characters and digits the result is correct
+    For example: abc123, have the digit 123 cotained and the sum should be 6
+    '''
     assert sum_of_digits("abc123") == 6
 
 
 def test_no_digits_returns_zero():
+    '''
+    This test ensures that if we have a string that has no digits in it will still work
+    For example: hello, have no digits cotained. So, the sum should be 0
+    '''
     assert sum_of_digits("hello") == 0
 
 
 def test_empty_string_returns_zero():
+    '''
+    This test ensures that if we have an empty string it will still work
+    For example: "", is an empty string. So, the sum should be 0
+    '''
     assert sum_of_digits("") == 0
 
 

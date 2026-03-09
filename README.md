@@ -1,6 +1,8 @@
 # Agile Lab 1
 
-This is the submission for Agile Lab 1
+This is the submission for Agile Lab 1.
+
+You will find Task 1 and Task 2 details in this repository.
 
 ## Contributors:
  - Abdallah Mohamed
